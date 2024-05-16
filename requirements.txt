@@ -1,5 +1,23 @@
-requests
-pytest
-json
-Mock
-Allure
+# 用于发送HTTP请求和处理响应
+requests==2.26.0
+
+# 用于编写和运行测试用例，支持参数化、fixture等功能
+pytest==6.2.5
+
+# 生成HTML格式的测试报告
+pytest-html==3.1.1
+
+# 用于对API返回的JSON数据进行schema验证
+jsonschema==4.0.0
+
+# 提供更强大、更灵活的日志记录功能
+loguru==0.5.3
+
+# 用于在测试中模拟外部依赖
+pytest-mock==3.6.1
+
+# 用于在测试用例中使用多个断言，保持测试用例的简洁性
+pytest-assume==2.4.2
+
+# 随机执行测试用例，避免依赖于测试用例执行的顺序
+pytest-random-order==1.1.0
