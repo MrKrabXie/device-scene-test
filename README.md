@@ -20,9 +20,7 @@ python + requests + pytest + json + 断言库 + Mock + 报告生成工具 + 持�
 
 python版本选用：3.10版本
 
-# device-scene-test
-
-## 目录结构
+## 项目结构
 
 ```bash  
 device-scene-test/  
