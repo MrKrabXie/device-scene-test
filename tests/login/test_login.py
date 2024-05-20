@@ -9,8 +9,7 @@ import requests
 
 from config.APISuffix import APISuffix
 from config.EnviromentUrl import EnviromentUrl
-# from config.APISuffix import APISuffix
-# from config.EnviromentUrl import EnviromentUrl
+
 
 # 在 test_login.py 文件的顶部添加以下导入语句
 
